@@ -1,0 +1,77 @@
+<html>
+        <body><!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Form Vaidation 
+            </title>
+        </head>
+        <body>
+            <h1>
+                Form Validation 
+                </h1>
+                <form onsubmit="return myfunction6()" id="gh">
+                    <br>
+                    <br>
+                    First name 
+                    <input type="text" required>
+                    <br>
+                    <br>
+                    last name 
+                    <input type="text" required>
+                    <br>
+                    <br>
+                    Address
+                    <input type="text"required>
+                    <br>
+                    <br>
+                    Email-id
+                    <input type="email" required>
+                    <br>
+                    <br>
+                    Username 
+                    <input type="text"required>
+                    <br>
+                    <br>
+                    Password
+                    <input type="password"required id="jk">
+                    <br>
+                    <br>
+                    Confirm password
+                    <input type="password"required id="li">
+                    <br>
+                    <br>
+                    <input type="submit">
+                    <br>
+                    <br>
+                    </form>
+                    <script>
+                        function myfunction6(){
+                        var vu=document.getElementById("jk").value;
+                        var bt=document.getElementById("li").value;
+                        if (vu!=bt){
+                        alert("password does not match");
+                        }
+                        else{
+                        alert("password matches");
+                        }
+                        }
+                        
+                        
+                        
+
+                        </script>
+            </body>
+    </html>
+</body>
+        <style>#gh{
+    font-family:tahoma;
+    border:1px solid;
+}
+body{
+    text-align:center;
+    background-color:red;
+    color:white;
+}</style>
+        <script></script>
+      </html>
